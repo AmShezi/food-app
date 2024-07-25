@@ -1,0 +1,22 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: #242020;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+button {
+  color: white;
+  width: 150px;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+}
