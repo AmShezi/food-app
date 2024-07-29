@@ -1,3 +1,5 @@
+import logo from "../assets/logo.svg"
+
 const Navbar = () => {
   return (
     <div
@@ -6,11 +8,10 @@ const Navbar = () => {
         justifyContent: "space-between",
         alignItems: "center",
         color: "white",
-        padding: 15,
       }}
     >
       <div>
-        <a>Logo</a>
+        <img src={logo} />
       </div>
       <div style={{ display: "flex", gap: 25 }}>
         <a>Home</a>
